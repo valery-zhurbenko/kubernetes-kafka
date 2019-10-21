@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: avro-schemas
-  namespace: kafka
+  namespace: myspace
 spec:
   ports:
   - port: 80

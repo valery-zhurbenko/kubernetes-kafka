@@ -1,7 +1,7 @@
 kind: ConfigMap
 metadata:
   name: broker-cruise-control-config
-  namespace: kafka
+  namespace: myspace
 apiVersion: v1
 data:
   cruisecontrol.properties: |-

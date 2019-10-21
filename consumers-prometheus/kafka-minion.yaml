@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: metrics-minion
-  namespace: kafka
+  namespace: myspace
   labels: &labels
     app: kafka-minion
     type: openmetrics

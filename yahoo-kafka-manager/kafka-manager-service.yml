@@ -2,7 +2,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: kafka-manager
-  namespace: kafka
+  namespace: myspace
 spec:
   selector:
     app: kafka-manager

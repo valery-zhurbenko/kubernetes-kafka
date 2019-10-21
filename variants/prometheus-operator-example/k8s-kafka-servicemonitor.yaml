@@ -3,7 +3,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: broker-monitoring
-  namespace: kafka
+  namespace: myspace
   labels:
     app: kafka
 spec:

@@ -2,7 +2,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: cruise-control
-  namespace: kafka
+  namespace: myspace
 spec:
   selector:
     app: cruise-control

@@ -1,7 +1,7 @@
 kind: ConfigMap
 metadata:
   name: avro-tools-config
-  namespace: kafka
+  namespace: myspace
 apiVersion: v1
 data:
   schema-registry.properties: |-

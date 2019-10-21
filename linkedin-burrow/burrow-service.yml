@@ -2,7 +2,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: burrow
-  namespace: kafka
+  namespace: myspace
 spec:
   selector:
     app: burrow

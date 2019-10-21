@@ -2,7 +2,7 @@ apiVersion: batch/v1
 kind: Job
 metadata:
   name: preferred-replica-election
-  namespace: kafka
+  namespace: myspace
 spec:
   template:
     metadata:

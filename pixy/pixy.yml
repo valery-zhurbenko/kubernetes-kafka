@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: pixy
-  namespace: kafka
+  namespace: myspace
   labels:
     app: pixy
 spec:

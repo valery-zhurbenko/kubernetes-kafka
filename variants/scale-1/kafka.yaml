@@ -2,6 +2,6 @@ apiVersion: apps/v1
 kind: StatefulSet
 metadata:
   name: kafka
-  namespace: kafka
+  namespace: myspace
 spec:
   replicas: 1

@@ -34,7 +34,7 @@ Variants also include examples of how to configure volumes for GKE, AWS and AKS 
 ### Quickstart
 
 ```
-kubectl create namespace kafka && \
+kubectl create namespace myspace && \
 kubectl apply -k github.com/Yolean/kubernetes-kafka/variants/dev-small/?ref=v6.0.3
 ```
 
